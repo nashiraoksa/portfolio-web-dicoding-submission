@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Nashira Oksani</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/profile-pic.png" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/styles/app.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="navbar-container">
+      <div class="logo">
+        <img src="assets/img/profile.png" alt="Nashira Oksani" />
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#interest">Interest</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="home" class="hero-container">
+        <div class="hero-content">
+          <div class="hero-content-text">
+            <h1>Hi, I'm Nashira Oksani <i class="fa-solid fa-hand-sparkles"></i></h1>
+            <h2>Front-End Web Developer</h2>
+            <p>
+              Computer Science undergraduate student at Universitas Gadjah Mada with a keen interest in Front-End Web Development. Recently also have a strong passion for UI/UX Design and willing to expand my knowledge in this field. Ready
+              to work collaboratively in teams and can easily adapt to various situations. My goal is to seek fresh experiences and gain valuable insights in the tech industry to enhance both my skills and personal development.
+            </p>
+          </div>
+          <div class="hero-content-btn">
+            <button>
+              <a href="#project">See Projects <i class="fa-solid fa-circle-arrow-down"></i></a>
+            </button>
+            <div class="social-media">
+              <a href="https://mailto:nashiraaoksani@mail.ugm.ac.id" target="_blank">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+              <a href="https://instagram.com/oxoxa__" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://wa.me/6288232664572" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/nashiraoksani/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="assets/img/hero-pic.png" alt="Nashira Hero Pic" />
+        </div>
+      </div>
+
+      <div id="interest" class="interest">
+        <h2 class="interest-title">Interest</h2>
+        <div class="interest-content">
+          <article id="rubik" class="card">
+            <img src="assets/img/rubik-1.png" alt="Rubik" />
+            <div class="interest-content-text">
+              <h3>Rubik's Cube</h3>
+              <p>
+                The Rubik's Cube, created by Ernő Rubik in 1974, is an iconic 3D puzzle. With six faces of various colors, the challenge lies in aligning them by twisting and turning the cube's components—a testament to logic, spatial
+                reasoning, and persistence.
+              </p>
+            </div>
+          </article>
+          <article id="sport" class="card">
+            <img src="assets/img/sport-2.png" alt="Sport" />
+            <div class="interest-content-text">
+              <h3>Sports</h3>
+              <p>
+                Engaging in sports as a hobby offers a multifaceted experience. It promotes physical fitness, mental well-being, and camaraderie. Whether it's running, cycling, or team sports, it's a fulfilling way to enjoy leisure time and
+                maintain a healthy, active lifestyle.
+              </p>
+            </div>
+          </article>
+          <article id="art" class="card">
+            <img src="assets/img/art-3.png" alt="" />
+            <div class="interest-content-text">
+              <h3>Digital Art</h3>
+              <p>
+                Digital art as a hobby allows for limitless creativity. With software and hardware tools, artists can explore various styles, experiment freely, and share their work globally. It's a modern and accessible avenue for
+                self-expression and artistic growth.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div id="project" class="project">
+        <!-- TODO carousel -->
+        <h2 class="project-title">My Projects</h2>
+        <div class="slider-container">
+          <div class="slides">
+            <img src="assets/img/project1.png" alt="Kotak Makan" />
+          </div>
+          <div class="slides">
+            <img src="assets/img/project2.png" alt="Nutrikos" />
+          </div>
+          <div class="slides">
+            <img src="assets/img/project3.png" alt="Si Tukik" />
+          </div>
+
+          <!-- <div class="arrow-btn"> -->
+          <a class="prev" onclick="nextSlide(-1)"><i class="fa-solid fa-chevron-left"></i></a>
+          <a class="next" onclick="nextSlide(1)"><i class="fa-solid fa-chevron-right"></i></a>
+          <!-- </div> -->
+        </div>
+        <section class="call-to-action">
+          <h3>Interested with my projects?</h3>
+          <div class="cta-btn">
+            <a class="email-me">Email Me <i class="fa-regular fa-envelope"></i></a>
+            <a href="https://github.com/nashiraoksa" target="_blank" class="github">Go to My GitHub <i class="fa-brands fa-github"></i></a>
+          </div>
+        </section>
+      </div>
+
+      <aside id="contact">
+        <div class="profile-img">
+          <img src="assets/img/profile-pic.png" alt="Nashira" />
+        </div>
+        <section class="contacts">
+          <h2>Kindly contact me at:</h2>
+          <div class="contact-icon">
+            <a href="https://mailto:nashiraaoksani@mail.ugm.ac.id" target="_blank">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://instagram.com/oxoxa__" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/6288232664572" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nashiraoksani/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <p><i class="fa-regular fa-copyright"></i> Copyright - Nashira Oksani 2023</p>
+      <p>Design inspired by: <a href="https://kukuhaldy.com/">KukuhAldy</a></p>
+    </footer>
+
+    <!-- JS for slider -->
+    <script>
+      let slideNumber = 1;
+      displaySlide(slideNumber);
+
+      function nextSlide(index) {
+        displaySlide((slideNumber += index));
+      }
+
+      function displaySlide(index) {
+        let i;
+        let slides = document.getElementsByClassName('slides');
+
+        if (index > slides.length) {
+          slideNumber = 1;
+        }
+
+        if (index < 1) {
+          slideNumber = slides.length;
+        }
+
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+
+        slides[slideNumber - 1].style.display = 'block';
+      }
+    </script>
+  </body>
+</html>
